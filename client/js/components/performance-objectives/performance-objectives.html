@@ -1,0 +1,21 @@
+<ng-transclude></ng-transclude>
+
+<header>
+    <span class="col-xs-3 offset-xs-6 text-center">Recent</span>
+    <span class="col-xs-3 text-center">Future</span>
+</header>
+
+<performance-objective
+    data-ng-repeat="objective in $ctrl.objectives track by $index"
+    index="$index"
+    objective="objective"
+    on-delete-objective="$ctrl.onDeleteObjective(index)">
+</performance-objective>
+
+<button
+    class="btn"
+    type="button"
+    data-ng-click="$ctrl.addObjective()">
+
+    Add a {{::$ctrl.objectiveLabel}}
+</button>

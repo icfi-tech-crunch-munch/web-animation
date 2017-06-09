@@ -1,0 +1,9 @@
+.nav {
+    .nav-item {
+        display: block;
+
+        &.active {
+            font-weight: bold;
+        }
+    }
+}

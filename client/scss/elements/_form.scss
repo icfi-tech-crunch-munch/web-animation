@@ -1,0 +1,27 @@
+.control-label {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 2px $offset-small;
+}
+
+.form-control {
+    background-color: $body-bg;
+    border: $border-default;
+    font-size: $font-size-large;
+    height: $font-size-large * 2;
+    max-width: 100%;
+    padding: $padding-default;
+    transition: box-shadow $transition-slow, border-color $transition-default;
+    width: 100%;
+
+    &:focus {
+        border-color: $brand-secondary;
+        box-shadow: $shadow-active;
+        outline: 0;
+    }
+
+    &[disabled='disabled'] {
+        color: $text-color-muted;
+        cursor: not-allowed;
+    }
+}

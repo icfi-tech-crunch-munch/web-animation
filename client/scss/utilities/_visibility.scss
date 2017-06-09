@@ -1,0 +1,21 @@
+%hidden {
+    display: none;
+}
+
+.hidden {
+    @extend %hidden;
+}
+
+%invisible {
+    visibility: hidden;
+}
+
+.invisible {
+    @extend %invisible;
+}
+
+body .collapse-height {
+    height: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
