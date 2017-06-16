@@ -1,7 +1,7 @@
-import template from './introduction.html';
+import template from './contrast.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let contrastPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default contrastPageComponent;

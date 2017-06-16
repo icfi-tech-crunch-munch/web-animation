@@ -1,7 +1,7 @@
-import template from './introduction.html';
+import template from './progress.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let progressPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default progressPageComponent;

@@ -1,7 +1,7 @@
-import template from './introduction.html';
+import template from './direct-attention.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let directAttentionPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default directAttentionPageComponent;

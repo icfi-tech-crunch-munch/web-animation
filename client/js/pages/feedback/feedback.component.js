@@ -1,7 +1,7 @@
-import template from './twelve-principals.html';
+import template from './feedback.html';
 
-let twelvePrincipalsPageComponent = {
+let feedbackPageComponent = {
     template
 };
 
-export default twelvePrincipalsPageComponent;
+export default feedbackPageComponent;

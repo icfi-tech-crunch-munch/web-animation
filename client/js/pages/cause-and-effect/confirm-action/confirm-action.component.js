@@ -1,7 +1,7 @@
-import template from './introduction.html';
+import template from './confirm-action.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let confirmActionPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default confirmActionPageComponent;

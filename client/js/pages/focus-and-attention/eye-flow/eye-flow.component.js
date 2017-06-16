@@ -1,7 +1,7 @@
-import template from './introduction.html';
+import template from './eye-flow.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let eyeFlowPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default eyeFlowPageComponent;

@@ -1,7 +1,7 @@
-import template from './introduction.html';
+import template from './demonstrate-functionality.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let demonstrateFunctionalityPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default demonstrateFunctionalityPageComponent;

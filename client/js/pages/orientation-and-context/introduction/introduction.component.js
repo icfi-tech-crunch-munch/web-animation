@@ -1,7 +1,7 @@
 import template from './introduction.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let orientationAndContextIntroductionPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default orientationAndContextIntroductionPageComponent;

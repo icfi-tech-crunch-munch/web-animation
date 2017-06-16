@@ -1,7 +1,7 @@
-import template from './introduction.html';
+import template from './layers.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let layersPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default layersPageComponent;

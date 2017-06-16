@@ -1,7 +1,7 @@
-import template from './introduction.html';
+import template from './onboarding.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let onboardingPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default onboardingPageComponent;

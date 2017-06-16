@@ -1,7 +1,7 @@
-import template from './twelve-principals.html';
+import template from './cause-and-effect.html';
 
-let twelvePrincipalsPageComponent = {
+let causeAndEffectPageComponent = {
     template
 };
 
-export default twelvePrincipalsPageComponent;
+export default causeAndEffectPageComponent;

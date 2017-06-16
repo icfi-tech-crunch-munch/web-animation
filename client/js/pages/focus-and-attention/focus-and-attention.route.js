@@ -2,74 +2,34 @@ function introductionRoute ($stateProvider, $urlRouterProvider) {
     'ngInject';
 
     $stateProvider
-        .state('twelve-principals', {
-            url        : '/twelve-principals',
-            component  : 'twelvePrincipalsPage'
+        .state('focus-and-attention', {
+            url        : '/focus-and-attention',
+            component  : 'focusAndAttentionPage'
         })
 
-        .state('twelve-principals.introduction', {
+        .state('focus-and-attention.introduction', {
             url        : '/introduction',
-            component  : 'twelvePrincipalsIntroductionPage'
+            component  : 'focusAndAttentionIntroductionPage'
         })
 
-        .state('twelve-principals.timing', {
-            url        : '/timing',
-            component  : 'timingPage'
+        .state('focus-and-attention.direct-attention', {
+            url        : '/direct-attention',
+            component  : 'directAttentionPage'
         })
 
-        .state('twelve-principals.follow-through-and-overalapping', {
-            url        : '/follow-through-and-overalapping',
-            component  : 'followThroughAndOverlappingPage'
+        .state('focus-and-attention.eye-flow', {
+            url        : '/eye-flow',
+            component  : 'eyeFlowPage'
         })
 
-        .state('twelve-principals.anticipation', {
-            url        : '/anticipation',
-            component  : 'anticipationPage'
+        .state('focus-and-attention.visual-continuity', {
+            url        : '/visual-continuity',
+            component  : 'visualContinuityPage'
         })
 
-        .state('twelve-principals.secondary-action', {
-            url        : '/secondary-action',
-            component  : 'secondaryActionPage'
-        })
-
-        .state('twelve-principals.arcs', {
-            url        : '/arcs',
-            component  : 'arcsPage'
-        })
-
-        .state('twelve-principals.squash-and-stretch', {
-            url        : '/squash-and-stretch',
-            component  : 'squashAndStretchPage'
-        })
-
-        .state('twelve-principals.slow-in-and-slow-out', {
-            url        : '/slow-in-and-slow-out',
-            component  : 'slowInAndSlowOutPage'
-        })
-
-        .state('twelve-principals.exaggeration', {
-            url        : '/exaggeration',
-            component  : 'exaggerationPage'
-        })
-
-        .state('twelve-principals.straight-ahead-and-pose-to-pose', {
-            url        : '/straight-ahead-and-pose-to-pose',
-            component  : 'straightAheadandPoseToPosePage'
-        })
-
-        .state('twelve-principals.solid-drawing', {
-            url        : '/solid-drawing',
-            component  : 'solidDrawingPage'
-        })
-
-        .state('twelve-principals.appeal', {
-            url        : '/appeal',
-            component  : 'appealPage'
-        })
-
-        .state('twelve-principals.staging', {
-            url        : '/staging',
-            component  : 'stagingPage'
+        .state('focus-and-attention.contrast', {
+            url        : '/contrast',
+            component  : 'contrastPage'
         });
 }
 

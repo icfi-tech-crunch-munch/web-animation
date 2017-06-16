@@ -1,7 +1,7 @@
-import template from './introduction.html';
+import template from './context-changes.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let contextChangesPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default contextChangesPageComponent;

@@ -1,7 +1,7 @@
-import template from './introduction.html';
+import template from './off-screen-objects.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let offScreenObjectsPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default offScreenObjectsPageComponent;

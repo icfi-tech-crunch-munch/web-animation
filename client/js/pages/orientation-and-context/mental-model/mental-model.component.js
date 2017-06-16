@@ -1,7 +1,7 @@
-import template from './introduction.html';
+import template from './mental-model.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let mentalModelPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default mentalModelPageComponent;

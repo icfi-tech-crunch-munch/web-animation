@@ -1,76 +1,36 @@
-function introductionRoute ($stateProvider, $urlRouterProvider) {
+function causeAndEffectRoute ($stateProvider, $urlRouterProvider) {
     'ngInject';
 
     $stateProvider
-        .state('twelve-principals', {
-            url        : '/twelve-principals',
-            component  : 'twelvePrincipalsPage'
+        .state('cause-and-effect', {
+            url        : '/cause-and-effect',
+            component  : 'causeAndEffectPage'
         })
 
-        .state('twelve-principals.introduction', {
+        .state('cause-and-effect.introduction', {
             url        : '/introduction',
-            component  : 'twelvePrincipalsIntroductionPage'
+            component  : 'causeAndEffectIntroductionPage'
         })
 
-        .state('twelve-principals.timing', {
-            url        : '/timing',
-            component  : 'timingPage'
+        .state('cause-and-effect.affordances', {
+            url        : '/affordances',
+            component  : 'affordancesPage'
         })
 
-        .state('twelve-principals.follow-through-and-overalapping', {
-            url        : '/follow-through-and-overalapping',
-            component  : 'followThroughAndOverlappingPage'
+        .state('cause-and-effect.preview', {
+            url        : '/preview',
+            component  : 'previewPage'
         })
 
-        .state('twelve-principals.anticipation', {
-            url        : '/anticipation',
-            component  : 'anticipationPage'
+        .state('cause-and-effect.handle-errors', {
+            url        : '/handle-errors',
+            component  : 'handleErrorsPage'
         })
 
-        .state('twelve-principals.secondary-action', {
-            url        : '/secondary-action',
-            component  : 'secondaryActionPage'
-        })
-
-        .state('twelve-principals.arcs', {
-            url        : '/arcs',
-            component  : 'arcsPage'
-        })
-
-        .state('twelve-principals.squash-and-stretch', {
-            url        : '/squash-and-stretch',
-            component  : 'squashAndStretchPage'
-        })
-
-        .state('twelve-principals.slow-in-and-slow-out', {
-            url        : '/slow-in-and-slow-out',
-            component  : 'slowInAndSlowOutPage'
-        })
-
-        .state('twelve-principals.exaggeration', {
-            url        : '/exaggeration',
-            component  : 'exaggerationPage'
-        })
-
-        .state('twelve-principals.straight-ahead-and-pose-to-pose', {
-            url        : '/straight-ahead-and-pose-to-pose',
-            component  : 'straightAheadandPoseToPosePage'
-        })
-
-        .state('twelve-principals.solid-drawing', {
-            url        : '/solid-drawing',
-            component  : 'solidDrawingPage'
-        })
-
-        .state('twelve-principals.appeal', {
-            url        : '/appeal',
-            component  : 'appealPage'
-        })
-
-        .state('twelve-principals.staging', {
-            url        : '/staging',
-            component  : 'stagingPage'
+        .state('cause-and-effect.confirm-action', {
+            url        : '/confirm-action',
+            component  : 'confirmActionPage'
         });
 }
 
-export default introductionRoute;
+export default causeAndEffectRoute;

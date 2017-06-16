@@ -1,7 +1,7 @@
-import template from './introduction.html';
+import template from './affordances.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let affordancesPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default affordancesPageComponent;

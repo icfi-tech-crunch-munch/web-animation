@@ -4,7 +4,7 @@ const DEV   = 'development';
 
 module.exports = {
     app    : {
-        siteName : 'Hydropower Climate Risk Screening Tool'
+        siteName : 'Web Animation'
     },
     port   : process.env.PORT || 3000,
     ENV    : {

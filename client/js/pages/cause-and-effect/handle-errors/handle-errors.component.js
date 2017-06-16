@@ -1,7 +1,7 @@
-import template from './introduction.html';
+import template from './handle-errors.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let handleErrorsPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default handleErrorsPageComponent;

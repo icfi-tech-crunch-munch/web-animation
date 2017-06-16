@@ -1,7 +1,7 @@
-import template from './twelve-principals.html';
+import template from './focus-and-attention.html';
 
-let twelvePrincipalsPageComponent = {
+let focusAndAttentionPageComponent = {
     template
 };
 
-export default twelvePrincipalsPageComponent;
+export default focusAndAttentionPageComponent;

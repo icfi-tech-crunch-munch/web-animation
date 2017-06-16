@@ -1,7 +1,7 @@
-import template from './introduction.html';
+import template from './guide-tasks.html';
 
-let twelvePrincipalsIntroductionPageComponent = {
+let guideTasksPageComponent = {
     template
 };
 
-export default twelvePrincipalsIntroductionPageComponent;
+export default guideTasksPageComponent;

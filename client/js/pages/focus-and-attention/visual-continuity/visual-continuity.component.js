@@ -1,4 +1,4 @@
-import template from './introduction.html';
+import template from './visual-continuity.html';
 
 let twelvePrincipalsIntroductionPageComponent = {
     template
