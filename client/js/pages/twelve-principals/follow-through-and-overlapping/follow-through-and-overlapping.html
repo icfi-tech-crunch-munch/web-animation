@@ -9,6 +9,21 @@
 
 <p class="offset-top">Achieved through either <a href="http://cubic-bezier.com/#.17,.67,.2,1.19">cubic-bezier</a> or by keyframes that move the opposite direction for a bit and then go to final destination</p>
 
+<pre>
+@keyframes followthrough {
+  0% {
+    transform: transform: translateX(0);;
+  }
+  95% {
+    transform: transform: translateX(105%);
+  }
+  100% {
+    transform: transform: translateX(100%);
+  }
+}
+</pre>
+
+
 <nav>
   <ul class="pager">
     <li class="previous"><a data-ui-sref="twelve-principals.timing()"><i class="fa fa-angle-left" aria-hidden="true"></i> Timing</a></li>
