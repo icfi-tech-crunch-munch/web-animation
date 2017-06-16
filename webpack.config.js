@@ -88,13 +88,5 @@ module.exports = {
             //     use    : 'file-loader?limit=8192&mimetype=image/svg+xml&name=/font/[name].[hash].[ext]'
             // }
         ]
-    },
-    plugins : [
-        new CopyWebpackPlugin([
-            {
-                from : 'client/img',
-                to   : 'img'
-            }
-        ])
-    ]
+    }
 };
